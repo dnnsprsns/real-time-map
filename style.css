@@ -1,0 +1,114 @@
+html, body, #content, .row, .col-md-12, .map{
+  height: 100%;
+}
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',Helvetica, Arial, sans-serif;
+  color: #666666;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-size-adjust: 100%;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.475;
+  background-color: #FFF;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: #e8e8e8;
+}
+
+#content_wrapper {
+  position: relative;
+  display: block;
+  height: 100%;
+  left: 0px;
+}
+
+#content {
+  overflow-x: hidden;
+}
+
+.row {
+  margin-left: -11px;
+  margin-right: -11px;
+}
+
+.row.table-layout {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.panel {
+  position: relative;
+  height: calc(100% - 40px);
+  margin: 20px;
+  border-color: #d5d5d5;
+  border-radius: 2px;
+}
+
+.panel-overflow {
+  overflow: hidden;
+}
+
+.panel-heading {
+  position: relative;
+  padding: 0;
+  min-height: 40px;
+  line-height: 40px;
+  color: #666;
+  font-size: 13px;
+  font-weight: 600;
+  border-bottom: 1px solid #e5e5e5;
+  border-radius: 2px 2px 0 0;
+  background: #fafafa;
+}
+
+.panel-heading + .panel-body {
+  border-top-color: #e5e5e5;
+}
+
+.panel-title {
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+.panel-title > .fa,
+.panel-title > .glyphicon,
+.panel-title > .glyphicons,
+.panel-title > .imoon {
+  min-width: 25px;
+  margin-right: 8px;
+  border-right: 1px solid #ddd;
+  color: #a87fc6;
+  font-size: 16px;
+  top: 2px; }
+
+  .panel-body {
+    position: relative;
+    height: calc(100% - 30px);
+  }
+
+  .panel-heading[class*='bg-'] {
+    margin: -1px;
+  }
+
+  .panel-heading[class*='bg-'],
+  .panel-heading[class*='bg-'] .glyphicon {
+    color: #FFF;
+    border: none;
+  }
+
+  .panel-heading[class*='bg-'] + .panel-body {
+    border-top: none;
+  }
